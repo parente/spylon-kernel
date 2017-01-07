@@ -14,7 +14,12 @@ setup(
     long_description=long_description,
     version=str(version),
     url='http://github.com/mariusvniekerk/spylon-kernel',
-    requirements=['spylon', 'metakernel'],
+    requirements=[
+        'jedi',
+        'metakernel',
+        'spylon',
+        'tornado'
+    ],
     packages=list(find_packages()),
     author='Marius van Niekerk',
     author_email='marius.v.niekerk+spylon@gmail.com',
