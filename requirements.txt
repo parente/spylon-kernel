@@ -1,8 +1,4 @@
+jedi
 metakernel
 spylon
-jedi
-pandas
-findspark
-pyyaml
-ipykernel
 tornado
